@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta http-equiv="content-type" content="text/html"charset="UTF-8">
+    <meta name="ornek12" content="width=device-width, initial-scale=1.0">
+    <title>Örnek 12</title>
+    <script type="text/javascript" language="javascript">
+    var firstName, secondName, fullName;
+    firstName= prompt("Adınız Nedir?");
+    secondName= prompt("Soyadınız Nedir?");
+    fullName= firstName+" "+secondName;
+    document.write("Merhaba, " + fullName);
+    
+    function changeColor(color){
+        document.bgColor=color;
+    }
+    </script>
+  
+    <h3>İstediğiniz arkaplan rengini seçmek için butonlara tıklayabilirsiniz</h3>
+</head>
+<body>
+    <form>
+        <input type="button" value="siyah" onclick="changeColor('black')"> 
+        <input type="button" value="beyaz" onclick="changeColor('white')">
+        <input type="button" value="sarı" onclick="changeColor('yellow')">
+        <input type="button" value="mavi" onclick="changeColor('blue')">
+        <input type="button" value="mavi" onclick="changeColor('blue')">
+    </form>
+</body>
+</html>
