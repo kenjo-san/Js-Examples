@@ -1,1 +1,0 @@
-alert("Merhaba örnek 2");
